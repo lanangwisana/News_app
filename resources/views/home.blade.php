@@ -18,4 +18,3 @@
         </div>
     @endsection
 </div>
-{{-- flex justify-center m-4 max-w-auto --}}
