@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [NewsController::class, 'index'])->name('home');
+Route::get('/home', [NewsController::class, 'index'])->name('home');

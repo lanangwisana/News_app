@@ -1,5 +1,5 @@
 <div class="navbar">
-    <nav class="bg-emerald-500">
+    <nav class="bg-emerald-600">
     <div class="w-full flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />

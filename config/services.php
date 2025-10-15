@@ -38,5 +38,7 @@ return [
     'gnews' => [
         'key' => env('GNEWS_API_KEY'),
     ],
-
+    'newsdata' => [
+        'key' => env('NEWSDATA_API_KEY'),
+    ],
 ];

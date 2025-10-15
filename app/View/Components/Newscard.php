@@ -8,17 +8,17 @@ use Illuminate\View\Component;
 
 class Newscard extends Component
 {
-    public $image, $title, $description, $url, $publishedAt;
+    public $imageUrl, $title, $description, $pubDate, $link, $category;
 
-    public function __construct($image, $title, $description, $url, $publishedAt)
+    public function __construct($imageUrl, $title, $description, $pubDate, $link, $category)
     {
-        $this->image = $image;
+        $this->imageUrl = $imageUrl;
         $this->title = $title;
         $this->description = $description;
-        $this->url = $url;
-        $this->publishedAt = $publishedAt;
+        $this->pubDate = $pubDate;
+        $this->link = $link;
+        $this->category = $category;
     }
-
     public function render()
     {
         return view('components.newscard');
